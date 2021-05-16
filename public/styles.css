@@ -1,0 +1,56 @@
+ .header {
+    font-family: 'KoHo', sans-serif;
+    /*
+     margin-top: 20px;
+     */
+     margin: auto;
+     display: flex;
+     flex: 1;
+     flex-direction: row;
+ }
+
+ .header-logo {
+     color: orange;
+     font-family: 'Press Start 2P', cursive;
+     font-size: 50px;
+     margin-top: 20px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+
+ .navbar-item {
+     color: white;
+     font-size: 25px;
+     display: inline-block;
+     /*
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     */
+     margin-left: 50px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .header-navbar-div {
+     background-color: black;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     width: 100%;
+     /*
+     margin: auto;
+     */
+ }
+
+ .header-logo-div {
+     margin-top: 20px;
+     margin-bottom: 20px;
+    
+ }
+
+
+
+ 
