@@ -138,5 +138,14 @@
     clear: both;
  }
 
+ .bottom-div {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    font-size: 40px;
+
+ }
+
 
  

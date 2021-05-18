@@ -8,10 +8,8 @@ function Header(){
                     <a href="/" className="header-logo">Josiah</a>
                 </div>
                     <a href="/" className="navbar-item">Home</a>
-                    <a href="/about" className="navbar-item">About</a>
-                    <a href="/skills" className="navbar-item">Skills</a>
-                    <a href="/portfolio" className="navbar-item">Portfolio</a>
-                    <a href="/contact" className="navbar-item">Contact</a>
+                    <a href="/portfolio" className="navbar-item">My Portfolio</a>
+                    <a href="/contact" className="navbar-item">Contact Me</a>
                 </div>
             </div>
     );
