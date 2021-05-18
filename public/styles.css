@@ -1,7 +1,9 @@
 
 #about-div {
     background-color: black;
+    box-shadow: 0 2px 5px #ccc;
 }
+
 #about-text {
     color: white;
     font-family: 'KoHo', sans-serif;
@@ -76,6 +78,7 @@
  .epcot {
      position: relative;
      width: 100%;
+     box-shadow: 0 2px 5px #ccc;
  }
 
  .josiah-img {

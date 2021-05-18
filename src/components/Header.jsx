@@ -11,7 +11,8 @@ function Header(){
                     <a href="/portfolio" className="navbar-item">My Portfolio</a>
                     <a href="/contact" className="navbar-item">Contact Me</a>
                 </div>
-            </div>
+        </div>
+            
     );
 }
 
