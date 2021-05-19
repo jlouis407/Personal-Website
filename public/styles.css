@@ -16,12 +16,12 @@
     margin-left: 25px;
 }
 
-.column {
+.column, .portfolio-column {
     float: left;
     width: 50%;
   }
 
-.row:after {
+.row:after, .portfolio-row:after {
     content: "";
     display: table;
     clear: both;
@@ -117,8 +117,9 @@
         width: 20%;
  }
 
- .skills-h1 {
+ .skills-h1, .portfolio-h1 {
      padding-bottom: 100px;
+     text-decoration: underline;
  }
 
  .skills-div {
@@ -127,7 +128,6 @@
     font-size: 30px;
     padding-bottom: 150px;
     text-align: center;
-    text-decoration: underline;
  }
 
  .skill-icon {
@@ -141,6 +141,11 @@
     clear: both;
  }
 
+ .github-repo {
+     color: orange;
+     text-decoration: wavy;
+ }
+
  .bottom-div {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -151,4 +156,19 @@
  }
 
 
- 
+.portfolio-div {
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 5px #ccc;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    padding-bottom: 150px;
+    text-align: center;
+
+}
+
+.portfolio-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
